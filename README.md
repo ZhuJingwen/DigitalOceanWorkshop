@@ -48,7 +48,7 @@ su - YOUR_USERNAME
 4. Type your IP address in Sever box, your username in Username box, and password:
 ![Type your IP address in Sever box, your username in Username box, and password](https://cloud.githubusercontent.com/assets/5662216/24777567/f028f5ea-1af3-11e7-87f7-b4e6c62e6ee8.png)
 5. Click connect
-6. Drag your project into Cyberduck
+6. Drag your project into Cyberduck. In this case, we will use [Collaborative Drawing】(https://github.com/ZhuJingwen/collaborative-drawing） as an example.
 
 ## Part V: Run your project
 1. In Terminal, make sure that you are logged in as the user you created, then typ:
@@ -62,15 +62,15 @@ USERNAME@DROPLET_NAME:~$ cd YOUR_PROJECT_FOLDER_NAME
 ```
 In this case: 
 ```
-USERNAME@DROPLET_NAME:~$ cd socket-example
+USERNAME@DROPLET_NAME:~$ cd collaborative-drawing
 ```
 3. Install node modules:
 ```
-USERNAME@DROPLET_NAME/socket-example:~$ npm install
+USERNAME@DROPLET_NAME/collaborative-drawing:~$ npm install
 ```
 4. Run the project:
 ```
-USERNAME@DROPLET_NAME/socket-example:~$ node server.js
+USERNAME@DROPLET_NAME/collaborative-drawing:~$ node server.js
 ```
 5. In browser, go to [YOUR_IP_ADDRESS: YOUR_PORT_NUMBER](YOUR_IP_ADDRESS: YOUR_PORT_NUMBER)
 In this case: [YOUR_IP_ADDRESS: 8080](YOUR_IP_ADDRESS: 8080)
@@ -79,7 +79,7 @@ In this case: [YOUR_IP_ADDRESS: 8080](YOUR_IP_ADDRESS: 8080)
 1. In Cyberduck, open server.js file with a text editor, change port 8080 to 80(default Hypertext Transfer Protocol(HTTP))
 2. In Terminal, Type:
 ```
-USERNAME@DROPLET_NAME/socket-example:~$ sudo node server.js
+USERNAME@DROPLET_NAME/collaborative-drawing:~$ sudo node server.js
 ```
 3. In browser, go to [YOUR_IP_ADDRESS](YOUR_IP_ADDRESS)
 
@@ -88,11 +88,11 @@ USERNAME@DROPLET_NAME/socket-example:~$ sudo node server.js
 2. Ctrl + C to stop the server
 3. Installing forever module:
 ```
-USERNAME@DROPLET_NAME/socket-example:~$ sudo npm install -g forever 
+USERNAME@DROPLET_NAME/collaborative-drawing:~$ sudo npm install -g forever 
 ```
 4. Run the server forever:
 ```
-USERNAME@DROPLET_NAME/socket-example:~$ sudo forever start server.js
+USERNAME@DROPLET_NAME/collaborative-drawing:~$ sudo forever start server.js
 ```
 5. All set! Now if you quit Terminal, the project would continue running. For more details about forever.js, please check [here](https://github.com/foreverjs/forever)
 
