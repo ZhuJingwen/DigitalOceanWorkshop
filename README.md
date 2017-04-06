@@ -11,11 +11,12 @@ This is a collection of code examples and step-by-step instructions on setting u
 ## Part II: Create a droplet
 1. Click Create Droplet
 2. Choose an image: select NodeJS 6.9.5 on 16.04
-https://cloud.githubusercontent.com/assets/5662216/24776782/4fe6b106-1af0-11e7-9729-ee50fbef6936.png
+![select NodeJS 6.9.5 on 16.04]
+(https://cloud.githubusercontent.com/assets/5662216/24776782/4fe6b106-1af0-11e7-9729-ee50fbef6936.png)
 3. Choose the smallest size $5/mo
-https://cloud.githubusercontent.com/assets/5662216/24776874/c866d7e6-1af0-11e7-8691-3489cd27af76.png
+![select $5/mo](https://cloud.githubusercontent.com/assets/5662216/24776874/c866d7e6-1af0-11e7-8691-3489cd27af76.png)
 4. Choose a datacenter region 
-https://cloud.githubusercontent.com/assets/5662216/24776899/e6464a58-1af0-11e7-8e42-3a16e65e7ff5.png
+![Choose a datacenter region](https://cloud.githubusercontent.com/assets/5662216/24776899/e6464a58-1af0-11e7-8e42-3a16e65e7ff5.png)
 5. Choose a hostage name: give it any name you want
 6. Click Create
 7. After a while, you should have received an email of your first time log in info.
@@ -46,7 +47,7 @@ su - YOUR_USERNAME
 2. In Cyberduck, click open connection
 3. Select SFTP(SSH File Transfer Protocol)
 4. Type your IP address in Sever box, your username in Username box, and password:
-https://cloud.githubusercontent.com/assets/5662216/24777567/f028f5ea-1af3-11e7-87f7-b4e6c62e6ee8.png
+![Type your IP address in Sever box, your username in Username box, and password](https://cloud.githubusercontent.com/assets/5662216/24777567/f028f5ea-1af3-11e7-87f7-b4e6c62e6ee8.png)
 5. Click connect
 6. Drag your project into Cyberduck
 
