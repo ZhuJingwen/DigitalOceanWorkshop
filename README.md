@@ -11,8 +11,7 @@ This is a collection of code examples and step-by-step instructions on setting u
 ## Part II: Create a droplet
 1. Click Create Droplet
 2. Choose an image: select NodeJS 6.9.5 on 16.04
-![select NodeJS 6.9.5 on 16.04]
-(https://cloud.githubusercontent.com/assets/5662216/24776782/4fe6b106-1af0-11e7-9729-ee50fbef6936.png)
+![select NodeJS 6.9.5 on 16.04](https://cloud.githubusercontent.com/assets/5662216/24776782/4fe6b106-1af0-11e7-9729-ee50fbef6936.png)
 3. Choose the smallest size $5/mo
 ![select $5/mo](https://cloud.githubusercontent.com/assets/5662216/24776874/c866d7e6-1af0-11e7-8691-3489cd27af76.png)
 4. Choose a datacenter region 
