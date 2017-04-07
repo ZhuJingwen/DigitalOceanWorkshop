@@ -48,7 +48,7 @@ su - YOUR_USERNAME
 4. Type your IP address in Sever box, your username in Username box, and password:
 ![Type your IP address in Sever box, your username in Username box, and password](https://cloud.githubusercontent.com/assets/5662216/24777567/f028f5ea-1af3-11e7-87f7-b4e6c62e6ee8.png)
 5. Click connect
-6. Drag your project into Cyberduck. In this case, we will use [Collaborative Drawing](https://github.com/ZhuJingwen/collaborative-drawing） as an example.
+6. Drag your project into Cyberduck. In this case, we will use [Collaborative Drawing](https://github.com/ZhuJingwen/collaborative-drawing) as an example.
 
 ## Part V: Run your project
 1. In Terminal, make sure that you are logged in as the user you created, then typ:
