@@ -1,8 +1,6 @@
 # DigitalOcean Workshop
 This is a collection of code examples and step-by-step instructions on setting up a DigitalOcean droplet for node.js projects.
 
-# DigitalOcean Set up
-
 ## Part I: Set up accounts
 1. Get the [GitHub Student Developer Pack](https://education.github.com/pack)
 2. Register a [DigitalOcean](https://www.digitalocean.com/) account
